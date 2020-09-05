@@ -1,14 +1,25 @@
 body{
+
     text-align: center;
+   
     }
+       
+    #quizarea{
     
-    #question1, #question2, #results {
-      display:none;
-      width:750px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height:600px;
+      width:800px;
+      background-color:peachpuff;
+      border-radius: 3px;
     }
-    
-    #quizarea
-    {
+
+    #button{
+   
       position: absolute;
       margin: auto;
       top: 0;
@@ -18,5 +29,25 @@ body{
       height:400px;
       width:800px;
       background-color: #ccc;
-      border-radius: 3px;
+      border-radius: 3px; 
+
     }
+
+    #question1, #question2, #question3, #question4, #results{
+ 
+      display:none;
+      width:750px;
+    }
+    
+    p{
+
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    h1{
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font: size 2cm;
+    }
+    
